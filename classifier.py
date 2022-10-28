@@ -176,7 +176,7 @@ def calculate_fixation_density(df_all, df_fix):
     return {"fixDensPerBB": fix_dens}
 
 
-def get_features(df, timespan=20):
+def get_features(df, timespan=5):
     ''' Calculates the features for a raw gaze data in chunks of n seconds.
     Input: Dataframe with raw gaze data, timespan to chunk, label (i.e. activity class).
     Output: List of dictionaries, one dictionary contains a chunk of features.
