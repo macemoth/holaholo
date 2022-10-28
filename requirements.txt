@@ -3,4 +3,5 @@ pandas
 scipy
 tabulate
 sklearn
+flask
 gunicorn
